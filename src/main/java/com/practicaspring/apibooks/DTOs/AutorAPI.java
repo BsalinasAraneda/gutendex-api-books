@@ -11,7 +11,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 public record AutorAPI(
     @JsonAlias("name") String nombre,
-    @JsonAlias("birth_year") String anioNacimiento,
-    @JsonAlias("death_year") String anioMuerte
+    @JsonAlias("birth_year") String fechaNacimiento,
+    @JsonAlias("death_year") String fechaDeceso
 ) {
 }
